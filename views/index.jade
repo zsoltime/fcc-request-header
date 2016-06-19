@@ -1,0 +1,26 @@
+extends layout
+block content
+    .container
+        h1 Free Code Camp
+        h2.subheading Request Header Parser Microservice
+        p
+            | Request Header Parser Microservice is a full stack JavaScript WhoAmI app built for&nbsp;
+            a(href="https://www.freecodecamp.com/challenges/request-header-parser-microservice") Free Code Camp
+            | .
+        blockquote
+            p User story:
+            ul
+                li I can get the IP address, language and operating system for my browser.
+        .usage
+            .example
+                h3 How to use it
+                p
+                    | You can simply visit the&nbsp;
+                    a(href="https://fcc-api-header.herokuapp.com/api/whoami/") API's link
+                    | , it will return with a JSON object with the above mentioned information.
+            .example
+                h3 Example output
+                pre
+                    code= sample
+    .credit
+        p Created by Zsolt Meszaros
