@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"));
 app.get("/api/whoami", function(req, res) {
     res.contentType("application/json");
     res.status(200).json({
-        ipaddress: req.ip,
+        ipaddress: req.headers['x-forwarded-for'] || req.connection.remoteAddress,
         language: req.headers["accept-language"].match(/^(.*?),/)[1],
         software: req.headers["user-agent"].match(/\((.*?)\)/)[1]
     });
