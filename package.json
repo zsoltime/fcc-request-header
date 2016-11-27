@@ -13,6 +13,15 @@
     "jade": "^1.11.0"
   },
   "engines": {
-    "node": "5.10.0"
-  }
+    "node": "6.9.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsoltime/request-header.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zsoltime/request-header/issues"
+  },
+  "homepage": "https://github.com/zsoltime/request-header#readme"
 }
