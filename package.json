@@ -1,6 +1,6 @@
 {
   "name": "header-parser",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Request Header Parser Microservice for Free Code Camp",
   "main": "app.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Zsolt Meszaros",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "jade": "^1.11.0"
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
   },
   "engines": {
     "node": "6.9.1"

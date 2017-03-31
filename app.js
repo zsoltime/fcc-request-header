@@ -4,7 +4,7 @@ var app = express();
 
 app.set('port', process.env.PORT || 8000);
 app.set('views', (__dirname + '/views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/api/whoami', function(req, res) {
@@ -29,5 +29,5 @@ app.get('/', function(req, res) {
 });
 
 var server = app.listen(app.get('port'), function() {
-  console.log('The app is running on http://localhost: %s', server.address().port);
+  console.log('The app is running on http://localhost:%s', server.address().port);
 });
