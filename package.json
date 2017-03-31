@@ -15,7 +15,11 @@
   "engines": {
     "node": "6.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zsoltime/request-header.git"
