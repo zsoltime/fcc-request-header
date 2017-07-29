@@ -1,15 +1,24 @@
 {
+  "env": {
+    "browser": true,
+    "node": true,
+  },
   "extends": "airbnb-base",
+  "import/no-extraneous-dependencies": ["error", {
+    "devDependencies": [
+      "**/*.test.js",
+    ],
+  }],
+  "parserOptions": {
+    "sourceType": "script",
+  },
   "rules": {
     "comma-dangle": ["error", {
-        "arrays": "always-multiline",
-        "objects": "always-multiline",
-        "imports": "never",
-        "exports": "never",
-        "functions": "ignore",
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "never",
+      "exports": "never",
+      "functions": "ignore",
     }],
-    "import/no-extraneous-dependencies": 0,
-    "import/no-unresolved": 0,
-    "import/extensions": 0,
   },
 }
