@@ -4,28 +4,36 @@
   "description": "Request Header Parser Microservice for Free Code Camp",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "tape ./tests/*.js | tap-spec"
   },
   "author": "Zsolt Meszaros",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "pug": "^2.0.0-beta11"
+    "pug": "^2.0.0-rc.2"
   },
   "engines": {
-    "node": "6.9.1"
+    "node": "6.11.1"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb-base": "^11.1.2",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
   },
+  "keywords": [
+    "freecodecamp",
+    "microservice",
+    "timestamp"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zsoltime/request-header.git"
+    "url": "git+https://github.com/zsoltime/fcc-request-header.git"
   },
   "bugs": {
-    "url": "https://github.com/zsoltime/request-header/issues"
+    "url": "https://github.com/zsoltime/fcc-request-header/issues"
   },
-  "homepage": "https://github.com/zsoltime/request-header#readme"
+  "homepage": "https://github.com/zsoltime/fcc-request-header#readme"
 }
