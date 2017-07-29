@@ -1,6 +1,9 @@
 * {
   box-sizing: inherit;
 }
+html {
+  font-size: 16px;
+}
 body {
   background-color: ghostwhite;
   box-sizing: border-box;
@@ -10,27 +13,30 @@ body {
   line-height: 1.6;
   margin: 0;
 }
+header {
+  margin-bottom: 2rem;
+}
 h1, h2, h3 {
   font-weight: 300;
   line-height: 1.2;
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0;
 }
 h2 {
   color: #888;
-  font-size: 1em;
+  font-size: 1rem;
 }
 blockquote {
   border-left: 4px solid crimson;
   color: #888;
-  margin: 1em 0;
-  padding: 0 0 0.5em 0.5em;
+  margin: 0 0 2rem;
+  padding: 0 0 0.5rem 0.5rem;
 }
 p {
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
 }
 a {
   color: crimson;
@@ -41,7 +47,7 @@ a:hover {
 }
 ul {
   margin: 0;
-  padding-left: 2em;
+  padding-left: 2rem;
   list-style-type: circle;
 }
 code {
@@ -49,13 +55,13 @@ code {
   color: #fff;
   display: block;
   font-family: "Source Code Pro", monospace;
-  font-size: .75em;
+  font-size: .75rem;
   overflow-x: auto;
-  padding: .5em;
+  padding: .5rem;
   white-space: pre;
 }
 code::-webkit-scrollbar {
-  height: 0.5em;
+  height: .5rem;
 }
 code::-webkit-scrollbar-track {
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
@@ -66,9 +72,9 @@ code::-webkit-scrollbar-thumb {
 .container {
   background-color: #fff;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-  margin: 2em auto;
+  margin: 2rem auto;
   max-width: 90vw;
-  padding: 1.5em;
+  padding: 1.5rem;
   width: 800px;
 }
 .credit {
@@ -77,7 +83,7 @@ code::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .credit p {
-  font-size: 0.625em;
+  font-size: 0.625rem;
   margin: 0;
 }
 @media (min-width: 640px) {
@@ -89,9 +95,9 @@ code::-webkit-scrollbar-thumb {
     width: 49%;
   }
   blockquote {
-    padding-left: 1.5em;
+    padding-left: 1.5rem;
   }
   ul {
-    padding-left: 2.5em;
+    padding-left: 2.5rem;
   }
 }

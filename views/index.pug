@@ -1,8 +1,9 @@
 extends _layout.pug
 block content
   .container
-    h1 Free Code Camp
-    h2.subheading Request Header Parser Microservice
+    header
+      h1 Free Code Camp
+      h2.subheading Request Header Parser Microservice
     p Request Header Parser Microservice is a full stack JavaScript WhoAmI app built for #[a(href='https://www.freecodecamp.com/challenges/request-header-parser-microservice') Free Code Camp].
     blockquote
       p User story:
@@ -15,7 +16,7 @@ block content
       .example
         h3 Example output
         pre
-          code= sample
-    .credit
-      p Created by #[a(href='http://zsolti.co') Zsolt Meszaros]
-      p Source code is available on #[a( href='https://github.com/zsoltime/request-header', target='_blank', rel='noopener') GitHub]
+          code= example
+    footer.credit
+      p Created by #[a(href='https://zsolti.co') Zsolt Meszaros]
+      p Source code is available on #[a( href='https://github.com/zsoltime/fcc-request-header', target='_blank', rel='noopener noreferrer') GitHub]

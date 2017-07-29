@@ -9,8 +9,8 @@ This is my request header parser for [Free Code Camp's second API project](https
 
 ```json
 {
-  ipaddress: "86.205.25.192",
-  language: "en-GB",
-  software: "Macintosh; Intel Mac OS X 10_11_4"
+  "ipaddress": "86.205.25.192",
+  "language": "en-GB",
+  "software": "Macintosh; Intel Mac OS X 10_11_4"
 }
 ```
